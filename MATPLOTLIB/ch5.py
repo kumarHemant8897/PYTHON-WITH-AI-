@@ -1,0 +1,17 @@
+import numpy as np
+import matplotlib.pyplot as plt
+ 
+months=[1,2,3,4]
+sales=[1000,1500,1200,1800]
+
+plt.plot(months,sales,color='blue',linestyle='--',linewidth=2,marker='o',label='2025 sales data')
+plt.xlabel("MONTHS")
+plt.ylabel("sales per momths")
+plt.title("Monthly sales data report ")
+plt.legend()
+plt.grid()
+
+plt.xticks([1,2,3,4],['M1','M2','M3','M4'])
+
+
+plt.show()
