@@ -11,7 +11,7 @@ class programmger(employee):
 
 class manager(programmger):
     def __init__(self):
-        super().__init__()
+        super().__init__()   #run its parenet constructor also
         print("this is manager constructor")
     c=3
 

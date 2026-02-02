@@ -68,7 +68,7 @@ print("\n")
 print(with_new_col)
 
 
-#DELET OPRATION
+#DELET OPRATION     you only have to give index of the elemt in th earray
 arr=np.array([1,2,3,4,5,6])
 deledted=np.delete(arr,1)
 print("deledted:  ", deledted)

@@ -34,3 +34,5 @@ def factorial(num):
 num=int(input("enter the numbr u want factorial:  "))
 answer =factorial(num)
 print(f"anwer is: "  ,  {answer})
+
+

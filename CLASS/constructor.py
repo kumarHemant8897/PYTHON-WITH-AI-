@@ -23,4 +23,4 @@ class Employee:
 harry=Employee("hemat", 13000,"javascript")
 print(harry.name,harry.salary,harry.language)
 #harry.greet()
-harry.getinfo()
+#harry.getinfo()

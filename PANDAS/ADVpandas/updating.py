@@ -17,6 +17,7 @@ data= {
 df=pd.DataFrame(data)
 
 #.LOC-> updating set
+#df.loc[row_index,"column_name"]=newValue
 df.loc[0,"salary"]=4500000
 
 

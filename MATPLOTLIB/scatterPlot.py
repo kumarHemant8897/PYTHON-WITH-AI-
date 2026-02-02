@@ -11,3 +11,9 @@ plt.legend()
 plt.grid(True)
 
 plt.show()
+
+
+#find co relation between items
+# use in machine learning
+
+#

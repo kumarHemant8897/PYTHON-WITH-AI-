@@ -15,7 +15,7 @@ class pets(Animal):
 class Dog(pets):
     @staticmethod
     def bark():
-        print("bow bow")
+        print("bow bow ! ")
 
 
 

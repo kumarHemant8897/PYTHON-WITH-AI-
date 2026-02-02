@@ -43,5 +43,8 @@ plt.savefig('moveis_duration_histogram.png')
 
 
 
+#scatterplot
+
+
 
 plt.show()

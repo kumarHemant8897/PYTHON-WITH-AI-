@@ -11,3 +11,5 @@ print(df)
 
 
 df.to_csv("output.csv",index=False)
+#to excwl if to_excel
+#to json if to_json

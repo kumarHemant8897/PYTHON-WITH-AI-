@@ -37,6 +37,7 @@ df['salary'].fillna(df['salary'].mean(), inplace=True)
 
 
 
+
 print("------------MODIFICATION OF DATA UISNG OPERATIONS ------ :  ")
 print(df)
 

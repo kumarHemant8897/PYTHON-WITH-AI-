@@ -10,15 +10,9 @@ data= {
 }    
 
 df=pd.DataFrame(data)
-
-#using NaN not a number intwhich it will give you a boolean value
-# True->value is not present
-#False ->value is present
-#sum()->gives value that are missing in a column
-
-
-
-print("UPDATING DATA IN EXISTING DATASET :  ")
+print("original Dataframe ")
 print(df)
-
+print("\n")
 print(df.isnull().sum())
+df_drop=df.dropna()
+print(df_drop)

@@ -17,6 +17,7 @@ data= {
 df=pd.DataFrame(data)
 
 #Delet a column in a dataset in this now only
+#df.drop(column='column name, inplace=True/False)
 df.drop(columns='salary',inplace=True)
 
 
