@@ -13,6 +13,8 @@ df=pd.DataFrame(data)
 print("original Dataframe ")
 print(df)
 print("\n")
+
 print(df.isnull().sum())
 df_drop=df.dropna()
 print(df_drop)
+print("Hemant is best")
