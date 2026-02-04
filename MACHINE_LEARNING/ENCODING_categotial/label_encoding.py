@@ -25,6 +25,12 @@ print('\n  onr hot Encoded data(City ')
 df_city_bool = pd.get_dummies(df, columns=['City'], dtype=int)
 print(df_city_bool)
 
+print("after encoding ")
+print(df.head())
+
+print("dattyoes ")
+print(df.dtypes)
+
 
 
 
