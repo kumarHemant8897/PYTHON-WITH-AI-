@@ -46,3 +46,7 @@ plt.show()
 
 print("varinece captured by each compenent is : ")
 print(pca_df)
+
+print("Hemant is a good boy ")
+print("Hemant is a good boy ")
+print("Hemant is a good boy ")
