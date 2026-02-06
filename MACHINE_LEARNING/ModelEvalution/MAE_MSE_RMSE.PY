@@ -8,7 +8,7 @@ real_score=[90,60,80,100]
 pred_scor=[85,70,70,90]
 
 mae=mean_absolute_error(real_score,pred_scor)
-print("mean squre error ")
+print("mean squre error: ")
 print(mae)
 
 mse=mean_squared_error(real_score,pred_scor)

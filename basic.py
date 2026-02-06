@@ -132,3 +132,11 @@ for i in range(1,6):
 
 for i in range(0,10,2):
     print(i)
+
+
+    print("Hemant is a good boy ")
+
+    print("Hemant is a good boy ")
+
+    print("Hemant is a good boy ")
+    print("Hemant is a good boy ")
